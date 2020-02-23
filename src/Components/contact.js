@@ -6,7 +6,6 @@ class Contact extends Component {
   render() {
     return(
       <div className="contact-body">
-      <div><h1>Contact Page</h1></div>
         <Grid className="contact-grid">
           <Cell col={6}>
             <h2>Ibrahim zauroh</h2>
@@ -27,21 +26,14 @@ class Contact extends Component {
                 <ListItem>
                   <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
                     <i className="fa fa-phone-square" aria-hidden="true"/>
-                    (123) 456-7890
-                  </ListItemContent>
-                </ListItem>
-
-                <ListItem>
-                  <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
-                    <i className="fa fa-fax" aria-hidden="true"/>
-                    (123) 456-7890
+                    (+601) 13367-6914
                   </ListItemContent>
                 </ListItem>
 
                 <ListItem>
                   <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
                     <i className="fa fa-envelope" aria-hidden="true"/>
-                    someone@example.com
+                    ibrahimzauroh@gmail.com
                   </ListItemContent>
                 </ListItem>
 
